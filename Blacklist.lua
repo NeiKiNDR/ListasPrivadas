@@ -1,3 +1,2 @@
 Blacklistusers = {
-  "NabilDr1",
 }
