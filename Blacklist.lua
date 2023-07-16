@@ -1,3 +1,3 @@
-local Blacklistusers = {
-  "NabilDr1";
+Blacklistusers = {
+  "NabilDr1",
 }
