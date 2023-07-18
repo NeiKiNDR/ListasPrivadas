@@ -1,2 +1,3 @@
 Blacklistusers = {
+  "Ceroggez",
 }
