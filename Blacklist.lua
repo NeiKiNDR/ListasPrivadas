@@ -1,3 +1,4 @@
 Blacklistusers = {
   "Ceroggez",
+  "NomisFinalStand",
 }
