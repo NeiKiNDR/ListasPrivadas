@@ -5,7 +5,6 @@ Blacklistusers = {
   "DONOVAVN100",
   "mandird17",
   "iiTr4xshXrSweaty",
-  "Zacqxx0",
   "limberthgamer",
   "firesperet55",
   "TheOneRisingAboveAll",
