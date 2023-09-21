@@ -6,7 +6,7 @@ Blacklistusers = {
   "mandird17",
   "iiTr4xshXrSweaty",
   "firesperet55",
-  "TheOneRisingAboveAll",
+  "TheOneRisingAboveAIl",
   "Nev3rH3ard87",
   "Oni_akumon",
 }
