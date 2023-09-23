@@ -11,4 +11,5 @@ Blacklistusers = {
   "Oni_akumon",
   "condori147",
   "TheGodRisingAboveAll",
+  "iiTr4xshXrSweaty",
 }
