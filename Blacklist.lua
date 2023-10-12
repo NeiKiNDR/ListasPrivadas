@@ -10,6 +10,5 @@ Blacklistusers = {
   "Nev3rH3ard87",
   "Oni_akumon",
   "condori147",
-  "TheGodRisingAboveAll",
   "iiTr4xshXrSweaty",
 }
