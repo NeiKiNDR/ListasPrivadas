@@ -1,14 +1,7 @@
-Blacklistusers = {
-  "Ceroggez",
-  "NomisFinalStand",
-  "JLennonHD_Gamer",
-  "DONOVAVN100",
-  "mandird17",
-  "firesperet55",
-  "TheGodRisingAboveAll",
-  "Nev3rH3ard87",
-  "Oni_akumon",
-  "condori147",
-  "iiTr4xshXrSweaty",
-  "limberthgamer",
-}
+repeat wait(4) until game:IsLoaded()
+
+if game.Players.LocalPlayer.Name == "Fllblak123" then
+game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
+wait(2)
+game.Players.LocalPlayer:Kick ("Nice Try Kid")
+end
