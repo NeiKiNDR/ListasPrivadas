@@ -14,4 +14,6 @@ Blacklistusers = {
   "Fllblak123",
   "bielicus",
   "Vox3xParrot",
+  "marioandrew008",
+  "marioandrew009",
 }
