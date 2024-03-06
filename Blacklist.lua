@@ -1,4 +1,4 @@
-Blacklistusers = {
+allowedUsers = {
   "Ceroggez",
   "NomisFinalStand",
   "JLennonHD_Gamer",
@@ -19,4 +19,18 @@ Blacklistusers = {
   "TheBlackShadowDTP",
   "Decak11",
   "lillasule",
+  "IBRAHIMRANGER",
 }
+ 
+local plr = game.Players.LocalPlayer
+if allowedUsers[plr.Name] then
+    game:GetService("StarterGui"):SetCore("SendNotification",
+    {
+    Title = "[Skid ah]";
+    Text = "Enjoy!  ".. game.Players.LocalPlayer.Name .."";
+    Icon = "http://www.roblox.com/asset/?id=10038146104";
+    Duration = 5;
+    })
+    else
+    plr:Kick("Bye Bye")
+end
