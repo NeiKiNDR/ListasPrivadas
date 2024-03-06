@@ -1,4 +1,4 @@
-allowedUsers = {
+Blacklistusers ={
   "Ceroggez",
   "NomisFinalStand",
   "JLennonHD_Gamer",
@@ -23,7 +23,7 @@ allowedUsers = {
 }
  
 local plr = game.Players.LocalPlayer
-if allowedUsers[plr.Name] then
+if Blacklistusers[plr.Name] then
     game:GetService("StarterGui"):SetCore("SendNotification",
     {
     Title = "[Skid ah]";
