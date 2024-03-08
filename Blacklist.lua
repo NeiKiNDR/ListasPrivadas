@@ -1,11 +1,25 @@
-spawn(function()
-        while wait() do
-if game.Players.LocalPlayer.Name == "IBRAHIMRANGER" then
-    game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
-elseif game.Players.LocalPlayer.Name == "Ib_Alive" then
-    game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
-elseif game.Players.LocalPlayer.Name == "BigZaddy6190" then
-    game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
-end
-end
-end)
+Blacklistusers ={
+  "Ceroggez",
+  "NomisFinalStand",
+  "JLennonHD_Gamer",
+  "DONOVAVN100",
+  "mandird17",
+  "firesperet55",
+  "TheGodRisingAboveAll",
+  "Nev3rH3ard87",
+  "Oni_akumon",
+  "condori147",
+  "iiTr4xshXrSweaty",
+  "limberthgamer",
+  "Fllblak123",
+  "bielicus",
+  "Vox3xParrot",
+  "marioandrew008",
+  "marioandrew009",
+  "TheBlackShadowDTP",
+  "Decak11",
+  "lillasule",
+  "IBRAHIMRANGER",
+  "BigZaddy6190",
+  "Ib_Alive",
+}
