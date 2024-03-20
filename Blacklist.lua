@@ -1,25 +1,41 @@
-Blacklistusers = {
-  "Ceroggez",
-  "NomisFinalStand",
-  "JLennonHD_Gamer",
-  "DONOVAVN100",
-  "mandird17",
-  "firesperet55",
-  "TheGodRisingAboveAll",
-  "Nev3rH3ard87",
-  "Oni_akumon",
-  "condori147",
-  "iiTr4xshXrSweaty",
-  "limberthgamer",
-  "Fllblak123",
-  "bielicus",
-  "Vox3xParrot",
-  "marioandrew008",
-  "marioandrew009",
-  "TheBlackShadowDTP",
-  "Decak11",
-  "lillasule",
-  "IBRAHIMRANGER",
-  "BigZaddy6190",
-  "Ib_Alive",
+repeat wait() until game:IsLoaded()
+
+local plr = game.Players.LocalPlayer
+
+local Blacklistusers = {
+  ["Ceroggez"] = true,
+  ["NomisFinalStand"] = true,
+  ["JLennonHD_Gamer"] = true,
+  ["DONOVAVN100"] = true,
+  ["mandird17"] = true,
+  ["firesperet55"] = true,
+  ["TheGodRisingAboveAll"] = true,
+  ["Nev3rH3ard87"] = true,
+  ["Oni_akumon"] = true,
+  ["condori147"] = true,
+  ["iiTr4xshXrSweaty"] = true,
+  ["Fllblak123"] = true,
+  ["bielicus"] = true,
+  ["Vox3xParrot"] = true,
+  ["marioandrew008"] = true,
+  ["marioandrew009"] = true,
+  ["TheBlackShadowDTP"] = true,
+  ["Decak11"] = true,
+  ["lillasule"] = true,
+  ["IBRAHIMRANGER"] = true,
+  ["BigZaddy6190"] = true,
+  ["Ib_Alive"] = true,
+  ["SILTIDREIC"] = true,
 }
+
+local Blacklistusersid = {
+    [] = false,
+    
+}
+
+while wait() do
+    if Blacklistusers[plr.Name] or Blacklistusersid[plr.UserId] then
+        print("Gay nigga")
+        plr:Kick("Gay nigga banned")
+    end
+end
