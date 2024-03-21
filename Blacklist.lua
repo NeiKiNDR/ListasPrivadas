@@ -23,6 +23,7 @@ local Blacklistusers = {
   ["BigZaddy6190"] = true,
   ["Ib_Alive"] = true,
   ["SILTIDREIC"] = true,
+  ["lDarkdemon21l"] = true,
 }
 
 local Blacklistusersid = {
