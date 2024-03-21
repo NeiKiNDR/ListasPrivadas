@@ -33,6 +33,7 @@ local Blacklistusersid = {
 
 while wait() do
     if Blacklistusers[plr.Name] or Blacklistusersid[plr.UserId] then
+        game.Players.LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer()
         print("Gay nigga")
         plr:Kick("Gay nigga banned")
     end
