@@ -24,6 +24,7 @@ local Blacklistusers = {
   ["Ib_Alive"] = true,
   ["SILTIDREIC"] = true,
   ["lDarkdemon21l"] = true,
+  ["Ixxgamer192"] = true,
 }
 
 local Blacklistusersid = {
